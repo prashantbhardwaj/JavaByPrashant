@@ -1,4 +1,4 @@
-Day 5: The basics of object-oriented programming.
+Day 6: The basics of object-oriented programming.
 
 What are classes and objects? (Simplified explanation)
 Creating a simple class with attributes (variables).

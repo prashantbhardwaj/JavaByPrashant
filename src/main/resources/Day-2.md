@@ -1,80 +1,72 @@
-Day 1: Getting comfortable with the tools and seeing their first program run.
+Day 2: Getting comfortable with the tools and seeing their first program run.
 ----------------------------------------------------------------------------
-1. What is Java? (Brief history and use cases)
-2. Why learn Java?
-3. Introduction to the Java Development Kit (JDK) and Java Runtime Environment (JRE).
-4. Installing the JDK (walkthrough).
-5. Setting up a basic text editor or a simple IDE (like VS Code with Java extensions or a very simple online IDE).
-6. Writing and running a simple "Hello, World!" program.
+1. Setting up a basic text editor or a simple IDE (like VS Code with Java extensions or a very simple online IDE).
+2. Writing and running a simple "Hello, World!" program.
 
+> To change the directory in `cmd` type the directory character and colon.
+> Example
 
+```
+H:
+```
+## Create a Project
+- In any of your directory create a folder called <b><i>workspace</i></b>. I am creating in `H:` directory
+- Inside <b><i>workspace</i></b> folder, create another folder <b><i>JavaByPrashant</i></b> 
+- Inside <b><i>JavaByPrashant</i></b> folder, create another folder <b><i>src</i></b>
+- Inside <b><i>src</i></b> folder, create another folder <b><i>main</i></b>
+- Inside <b><i>main</i></b> folder, create another folder <b><i>java</i></b>
+- Now, you will have a directory structure like - `H:/workspace/JavaByPrashant/src/main/java`
 
+## Write a program
+- Inside java, create a file A.java and write following code in that:
 
+```java
+package com.prashant.tutorial;
 
+public class A {
+    public static void main(String[] args) {
+        System.out.println("Hello World !!");
+    }
+}
 
-Calculator
-Input - Pressing
-Output - Results on the screen
+```
+## Run your program
+- Open cmd and change directory to the place where your java file is
+```groovy
+H:
+cd "H:/workspace/JavaByPrashant/src/main/java"
+```
 
+Now first compile your java file <b><i>A.java</i></b>
 
-
-
-Programming language
-Using which, you can write your instructions in plain english and your computer will interpret those instructions and will execute in sequence and will give you the intended results.
-
-1. What is Java?
-Java is a programming language, like a set of instructions you give to a computer to make it do things.
-Java is used to build a wide variety of applications: websites, mobile apps (Android), desktop software, and more
-## Java is platform-independent ("write once, run anywhere"). It means you can write a Java program on one computer and run it on another, even if they have different operating systems.
-
-2. Why learn Java?
-Highlight its popularity and widespread use in the industry.
-Mention job opportunities related to Java development.
-Point out that learning Java provides a strong foundation for learning other programming languages.
-Say that android apps are made using java.
-
-## 3. Introduction to the Java Development Kit (JDK) and Java Runtime Environment (JRE).
-JDK (Java Development Kit) is needed to write and compile Java programs
-JRE (Java Runtime Environment) is needed to run Java programs.
-Think of the JDK as the tools you need to build a house, and the JRE as the house itself.
-
-4. Installing the JDK (walkthrough).
-C:\Program Files\Java
-
-Go to search bar and type 'cmd' to open command prompt
->> java -version
->> java -help
-
-If you can't run java or javac, you'll need to add the JDK's bin directory to your PATH. This process varies slightly depending on your operating system.
-
->> PATH
-
-https://www.oracle.com/uk/java/technologies/downloads/
-
-5. Setting up a basic text editor or a simple IDE (like VS Code with Java extensions or a very simple online IDE).
-6. Writing and running a simple "Hello, World!" program.
-
->> H:
->> javac A.java
+### Compile your java class
+```bash
+javac A.java
+``` 
 
 If there are no errors, this will create a .class file (e.g., MyProgram.class) in the same directory. This .class file contains the compiled bytecode.
 If you have errors, the command line will display those errors, and you will have to correct them in your java file, and compile again.
 
 Key Points:
 
-    javac: This command is used to compile Java source code (.java files).
-    java: This command is used to run compiled Java bytecode (.class files).
-    Case Sensitivity: Java is case-sensitive, so make sure you type file and class names correctly.
-    Directory Navigation: Use the cd command to navigate to the correct directory in the command line.
+> javac: This command is used to compile Java source code (.java files).
 
-To Resolve the error:
+> java: This command is used to run compiled Java bytecode (.class files).
 
->> cd ../../../
->> java com.prashant.tutorial.A
+> Case Sensitivity: Java is case-sensitive, so make sure you type file and class names correctly.
 
-We need to run the java class using fully qualified name of the class which includes package name and class name.
+> Directory Navigation: Use the cd command to navigate to the correct directory in the command line.
 
- explain java compiler
+### Resolving the errors:
+
+```bash 
+cd ../../../
+java com.prashant.tutorial.A
+```
+
+> We need to run the java class using fully qualified name of the class which includes package name and class name.
+
+###  What is java compiler
 
 The Java compiler, typically invoked through the javac command, is a crucial part of the Java Development Kit (JDK). Its primary function is to translate Java source code (written in .java files) into Java bytecode (stored in .class files). Here's a more detailed explanation:
 
@@ -162,7 +154,7 @@ Now lets create a new folder other inside tutorial and copy paste A.java inside 
 
 com\prashant\tutorial\other\B.java:3: error: class A is public, should be declared in a file named A.java
 public class A {
-       ^
+^
 Note: File name should match the public class name
 
 H:\workspace\JavaByPrashant\src\main\java>java com.prashant.tutorial.B

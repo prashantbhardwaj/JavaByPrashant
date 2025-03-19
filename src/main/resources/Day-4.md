@@ -1,4 +1,4 @@
-Day 3: Making decisions in your programs.
+Day 4: Making decisions in your programs.
 
 Arithmetic operators (+, -, *, /).
 Comparison operators (==, !=, >, <, >=, <=).
