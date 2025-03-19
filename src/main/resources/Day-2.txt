@@ -1,0 +1,9 @@
+Day 2: Understanding how to store and manipulate basic data.
+
+Understanding the structure of a Java program (class, main method).
+Variables and data types (int, double, String, boolean).
+Declaring and initializing variables.
+Basic output using System.out.println().
+Basic arithmetic operations.
+
+Variable is a data holder. Just like in your math class you do x = 3 & y = 5
