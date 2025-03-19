@@ -1,0 +1,9 @@
+Keep it Simple: Avoid overwhelming beginners with complex concepts.
+Hands-on Practice: Emphasize coding exercises and examples.
+Visual Aids: Use diagrams and visual representations to explain concepts.
+Q&A: Allocate time for questions and answers.
+Break Down Concepts: Divide complex topics into smaller, manageable chunks.
+Use simple examples: Avoid overly complex examples.
+Reinforcement: At the beginning of each lesson, quickly recap the previous lesson.
+Encourage questions: Make the students feel comfortable asking questions.
+Utilize an online IDE: For the very first few lessons, an online IDE could be used to reduce the amount of initial setup the students have to do.
