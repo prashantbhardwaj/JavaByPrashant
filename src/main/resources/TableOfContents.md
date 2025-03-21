@@ -16,6 +16,11 @@
 * Declaring and initializing variables.
 * Basic output using System.out.println().
 
+## Day 4: Access modifiers
+* Class level modifiers
+* Member variable level modifiers
+* Method level access modifiers
+
 ## Day 4: Making decisions in your programs.
 - Arithmetic operators (+, -, *, /).
 - Comparison operators (==, !=, >, <, >=, <=).
