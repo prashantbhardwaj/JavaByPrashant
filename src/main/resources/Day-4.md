@@ -1,7 +1,0 @@
-Day 4: Making decisions in your programs.
-
-Arithmetic operators (+, -, *, /).
-Comparison operators (==, !=, >, <, >=, <=).
-Logical operators (&&, ||, !).
-Introduction to if statements.
-Simple if/else statements.

@@ -34,7 +34,7 @@ Here's the basic structure of a Java class, explained step-by-step:
 
 - This is enclosed in curly braces {} and contains the class's members (variables and methods).
 
-### 5. Variables (Fields/Attributes):
+### 5. Variables (Fields/Attributes) (Optional):
 
 - These are used to store data associated with the class. Variable is a data holder. Just like in your math class you do x = 3 & y = 5
 - They are also known as fields or attributes.
@@ -48,7 +48,7 @@ Here's the basic structure of a Java class, explained step-by-step:
 - They have the same name as the class.
 - Example: public MyClass() { ... } or public MyClass(int number) { ... }
 
-### 7. Methods (Functions):
+### 7. Methods (Functions) (Optional):
 
 - These define the behavior of the class.
 - They contain blocks of code that perform specific tasks.
@@ -113,7 +113,7 @@ public class MyClass {
 
 Objective: To understand what variables are, how to declare them, and the basic data types used to store different kinds of information in Java.
 
-### 1. What are Variables? (5 Minutes)
+### 1. What are Variables?
 
 * Analogy: Think of a variable as a labeled box in your computer's memory.
 * The label is the variable's name (e.g., age, name, isReady).
@@ -121,7 +121,7 @@ Objective: To understand what variables are, how to declare them, and the basic 
 * Purpose: Variables allow us to store and manipulate data in our programs.
 * Dynamic vs. Static: Java is a statically typed language, which means you must declare the type of data a variable will hold before you use it.
 
-### 2. Declaring Variables (5 Minutes)
+### 2. Declaring Variables
 
 * Syntax: data_type variable_name;
 * data_type: Specifies the type of data the variable will hold (e.g., int, double, String, boolean).
@@ -132,7 +132,7 @@ Objective: To understand what variables are, how to declare them, and the basic 
 >>   String name; <br>
 >>   boolean isReady; <br>
 
-### 3. Initializing Variables (5 Minutes)
+### 3. Initializing Variables
 
 * Assigning a value: After declaring a variable, you can assign a value to it using the assignment operator =.
 * Syntax: variable_name = value;
@@ -144,9 +144,9 @@ Objective: To understand what variables are, how to declare them, and the basic 
 *   Declaration and initialization in one line:
    int age = 25;
 
-### 4. Basic Data Types (20 Minutes)
+### 4. Basic Data Types
 
-   ```groovy
+   ```
    int (Integers):
    Used to store whole numbers (e.g., -10, 0, 100).
    Example: int numberOfStudents = 30;
@@ -172,7 +172,7 @@ Objective: To understand what variables are, how to declare them, and the basic 
    Example: boolean isFinished = false;
    ```
 
-### 5. Examples and Practice (10 Minutes)
+### 5. Examples and Practice
 
    Simple Program:
    
@@ -211,7 +211,7 @@ Objective: To understand what variables are, how to declare them, and the basic 
 
 Objective: To understand how to display information to the console using System.out.println().
 
-### 1. What is Output? (5 Minutes)
+### 1. What is Output?
 
 Concept:
    Output is how a program communicates with the user.
@@ -220,7 +220,7 @@ Concept:
 Console:
    The console is a text-based interface (like the command prompt or terminal) where programs can display output.
 
-### 2. Introduction to System.out.println() (10 Minutes)
+### 2. Introduction to System.out.println()
 
 Explanation:
    System.out.println() is a built-in Java method used to print text or values to the console.
@@ -274,7 +274,7 @@ Explanation:
    The + operator is used to concatenate (join) strings and variable values.
    Java automatically converts non-string values (like numbers) to strings when used with the + operator in this way.
 
-### 5. Printing Multiple Items on the Same Line (System.out.print()) (5 Minutes)
+### 5. Printing Multiple Items on the Same Line (System.out.print())
 
 Explanation:
    System.out.print() is similar to System.out.println(), but it doesn't move the cursor to the next line after printing.
@@ -293,7 +293,7 @@ Example:
 
 >   Output: Hello, Java! Welcome!
 
-### 6. Practice and Examples (5 Minutes)
+### 6. Practice and Examples
 
 Simple Exercises:
 * Ask students to write programs that print different messages to the console.
